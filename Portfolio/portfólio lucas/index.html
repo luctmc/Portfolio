@@ -11,7 +11,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
   <link href="https://fonts.google.com/specimen/Special+Elite" rel="stylesheet">
-
 </head>
 
 <body>
@@ -105,6 +104,15 @@ desafiadores.
         </ul>
       </div>
 
+      <div class="destaque-projeto">
+        <h3 class="empresa-titulo">Projeto Destaque: </h3>
+        <p class="empresa-texto"><strong>Projeto CIA - Colaboradora Digital CIJUN</strong></p>
+        <a class="linkedin" href="https://www.linkedin.com/in/lucas-castro-083201292/details/projects/?profileUrn=urn%3Ali%3Afsd_profile%3AACoAAEbdfyMBbdo-suy_tGA6_KhE7-vvYDIazBQ"><strong>Ver mais</strong></a>
+      </div>
+  
+    </div>
+  </section>
+
     </div>
   </section>
 
@@ -126,7 +134,7 @@ desafiadores.
 
           <li class="faculdade">
             <span class="faculdade-tipo">Cursos Técnicos & Profissionalizantes</span>
-            <h3 class="faculdade-curso">• Alura<br> • Origamid<br>• Microsoft<br>• ABTEC<br></h3>
+            <h3 class="faculdade-curso">• Alura<br> • Origamid<br>• Udemy<br>• Microsoft<br>• ABTEC<br></h3>
             <span class="faculdade-instituicao"></span>
           </li>
         </ul>
@@ -154,20 +162,31 @@ desafiadores.
       </div>
     </div>
   </section>
-
+</footer>
   <footer class="footer" id="contato">
     <div class="footer-container">
       <p class="footer-texto">Estou disponível para novos <strong>projetos</strong> no momento. Entre em contato comigo e marcamos uma conversa. </p>
       <ul class="footer-contato">
-        <a class="button item1">ltmc.contato@gmail.com</a>
-        <a class="button item1">Cel: +55 (11) 99555-6313</a>
+        <a class="button item1" href="mailto:ltmc.contato@gmail.com">ltmc.contato@gmail.com</a>
+        <a class="button item1" onclick="copyPhoneNumber()" >Cel: +55 (11) 99555-6313</a>
+        <a class="button item1" href="https://www.linkedin.com/in/lucas-castro-083201292/">Linkedin</a>
+        <a class="button item1" href="https://www.github.com/luctmc/">Github</a>
         <a class="button item1" href="https://www.instagram.com/luctmc/">Instagram</a>
       </ul>
       <p class="footer-copy">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;• Desenvolvido por:<br>
         Lucas Timponi Mercadante Castro.</p>
     </div>
   </footer>
-
+  <script>
+    function copyPhoneNumber() {
+      const phoneNumber = "+5511995556313";
+      navigator.clipboard.writeText(phoneNumber).then(function() {
+        alert('Número de telefone copiado para a área de transferência: ' + phoneNumber);
+      }, function(err) {
+        console.error('Falha ao copiar: ', err);
+      });
+    }
+  </script>
 </body>
 
 </html>
