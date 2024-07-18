@@ -202,9 +202,7 @@ img {
   transition: all 0.5s;
   z-index: -1;
 }
-/*========================*/
 
-/* First item - Button 1*/
 .item1::before {
   width: 0;
   height: 100%;
@@ -239,8 +237,6 @@ img {
   transition: 0.5s;
 }
 
-/*EFEITO DE HOVER INTERMEDIÁRIO*/
-/* First intermediário - Button 1*/
 .item1:hover {
   background: rgb(162, 218, 8) url(pixel.png);
   background-size: 100%;

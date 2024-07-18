@@ -1,0 +1,50 @@
+
+.linkedin {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #b6f829;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .linkedin:hover {
+    background-color: #b6f829;
+  }
+  
+  
+  .destaque-projeto {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+  }
+  
+  .destaque-projeto .empresa-titulo {
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .destaque-projeto .empresa-texto {
+    font-size: 1rem;
+    color: #525252;
+    margin-bottom: 10px;
+  }
+  
+  .destaque-projeto .linkedin {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #000000;
+    background-color: #b6f829;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .destaque-projeto .linkedin:hover {
+    background-color: #67dd0a;
+  }
